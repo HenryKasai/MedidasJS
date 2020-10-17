@@ -5,7 +5,7 @@ const aclick = (e) => {
     if (Number(metros)) {
         let quilometros = Number(metros) / 1000;
         let centimetros = Number(metros) * 100;
-        alert(`${metros} metros = ${quilometros} km e ${centimetros} cm.`);    
+        alert(`${metros} m = ${quilometros} km = ${centimetros} cm.`);    
     } else {
         alert("Insira um valor válido");
     }
