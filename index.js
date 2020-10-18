@@ -1,5 +1,5 @@
-const a = document.querySelector("a");
-const aclick = (e) => {
+const button = document.querySelector("button");
+const buttonclick = (e) => {
     e.preventDefault();
     let metros = prompt("Insira uma medida em metros.");
     if (Number(metros)) {
@@ -11,4 +11,4 @@ const aclick = (e) => {
     }
 }
 
-a.addEventListener("click", aclick);
+button.addEventListener("click", buttonclick);
